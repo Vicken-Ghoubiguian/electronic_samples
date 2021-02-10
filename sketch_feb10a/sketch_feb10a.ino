@@ -39,7 +39,7 @@ void loop() {
 
   Heltec.display->clear();  
   
-  //Serial.print("Sending packet: ");
+  //Serial.print("Sending a LoRa packet: ");
   Heltec.display->setTextAlignment(TEXT_ALIGN_LEFT);
   Heltec.display->setFont(ArialMT_Plain_16);
   Heltec.display->drawString(0, 10, "Sending packet...");
