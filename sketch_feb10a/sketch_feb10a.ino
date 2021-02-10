@@ -39,10 +39,9 @@ void loop() {
 
   Heltec.display->clear();  
   
-  //Serial.print("Sending a LoRa packet: ");
   Heltec.display->setTextAlignment(TEXT_ALIGN_LEFT);
   Heltec.display->setFont(ArialMT_Plain_16);
-  Heltec.display->drawString(0, 10, "Sending packet...");
+  Heltec.display->drawString(0, 10, "Sending a LoRa packet...");
 
   Heltec.display->display();
   delay(1000);                       // wait for a second
