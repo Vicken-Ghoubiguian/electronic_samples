@@ -41,7 +41,7 @@ void setup() {
 
       Heltec.display->setTextAlignment(TEXT_ALIGN_LEFT);
       Heltec.display->setFont(ArialMT_Plain_10);
-      Heltec.display->drawString(0, 10, "IP: " + WiFi.localIP().toString());
+      Heltec.display->drawString(0, 10, "Local IP: " + WiFi.localIP().toString());
       Heltec.display->display();
 
       delay(5000);
@@ -55,13 +55,13 @@ void setup() {
       delay(5000);
       Heltec.display->clear();*/
 
-      /*Heltec.display->setTextAlignment(TEXT_ALIGN_LEFT);
+      Heltec.display->setTextAlignment(TEXT_ALIGN_LEFT);
       Heltec.display->setFont(ArialMT_Plain_10);
-      Heltec.display->drawString(0, 10, "IP: " + WiFi.localIP());
+      Heltec.display->drawString(0, 10, "Gateway IP: " + WiFi.gatewayIP().toString());
       Heltec.display->display();
 
       delay(5000);
-      Heltec.display->clear();*/
+      Heltec.display->clear();
     }
     
   } else if(WiFi.status() == WL_NO_SHIELD) {
