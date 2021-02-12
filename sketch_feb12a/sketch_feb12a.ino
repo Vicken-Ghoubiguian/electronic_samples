@@ -17,6 +17,8 @@ void setup() {
 
   WiFi.begin(ssid, password);
 
+  delay(10000);
+
   if(WiFi.status() == WL_CONNECTED) {
 
     Heltec.display->setTextAlignment(TEXT_ALIGN_LEFT);
