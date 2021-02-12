@@ -18,7 +18,6 @@ int counter = 0;
 
 void setup() {
   
-  //WIFI Kit series V1 not support Vext control
   Heltec.begin(true /*DisplayEnable Enable*/, true /*Heltec.LoRa Disable*/, true /*Serial Enable*/, true /*PABOOST Enable*/, BAND /*long BAND*/);
 
   Heltec.display->flipScreenVertically();
@@ -47,15 +46,7 @@ void loop() {
   
   Heltec.display->clear();
   
-  // send packet
   LoRa.beginPacket();
-/*
-* LoRa.setTxPower(txPower,RFOUT_pin);
-* txPower -- 0 ~ 20
-* RFOUT_pin could be RF_PACONFIG_PASELECT_PABOOST or RF_PACONFIG_PASELECT_RFO
-*   - RF_PACONFIG_PASELECT_PABOOST -- LoRa single output via PABOOST, maximum output 20dBm
-*   - RF_PACONFIG_PASELECT_RFO     -- LoRa single output via RFO_HF / RFO_LF, maximum output 14dBm
-*/
   LoRa.setTxPower(14,RF_PACONFIG_PASELECT_PABOOST);
   LoRa.print("The Ragnarök awaits...");
   LoRa.print(counter);
@@ -69,10 +60,10 @@ void loop() {
   
   counter++;
   
-  digitalWrite(25, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(25, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
+  digitalWrite(25, HIGH);
+  delay(1000);
+  digitalWrite(25, LOW);
+  delay(1000);
 
   Heltec.display->clear();
 }
