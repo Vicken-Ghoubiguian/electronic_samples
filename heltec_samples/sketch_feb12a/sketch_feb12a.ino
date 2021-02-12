@@ -33,13 +33,12 @@ void setup() {
       
       Heltec.display->setTextAlignment(TEXT_ALIGN_LEFT);
       Heltec.display->setFont(ArialMT_Plain_10);
-      Heltec.display->drawString(0, 10, WiFi.macAddress());
+      Heltec.display->drawString(0, 10, "MAC: " + WiFi.macAddress());
       Heltec.display->display();
 
       delay(5000);
       Heltec.display->clear();
-
-      //Heltec.display->drawString(10, 10, WiFi.macAddress());
+      
       //Heltec.display->drawString(5, 10, "IP Address: " + WiFi.localIP());
     }
     
