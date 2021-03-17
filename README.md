@@ -1,1 +1,3 @@
 # electronic_samples
+
+This repos consists just a reminder, simple but as solid and complete as possible and on an ongoing basis for any future maker project... 
