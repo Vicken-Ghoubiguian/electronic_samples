@@ -1,1 +1,1 @@
-# Raspberry pi pico samples
+# Raspberry Pi Pico samples
