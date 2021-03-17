@@ -1,8 +1,8 @@
-#
+# import 'Pin' (to manipulate pins) from 'machine' module...
 from machine import Pin
 
-#
+# define the current pin object (the pin on the pico's board in this case) as the 'led' variable...
 led = Pin(25, Pin.OUT)
 
-#
+# to toggle the 'status' of the pin (turn on to off and vice versa)...
 led.toggle()
