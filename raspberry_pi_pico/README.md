@@ -1,5 +1,9 @@
 # Raspberry Pi Pico samples
 
+## Development with Thony... 
+
+## Development with Visual Studio Code...
+
 ## Documentation
 
 * [Welcome to Raspberry Pi RP2040](https://www.raspberrypi.org/documentation/rp2040/getting-started/),
