@@ -10,7 +10,7 @@ Here is a series of tutorials to get started with the Raspberry pi pico microcon
 
 ### Getting started
 
-This section describes a series of tutorials to quickly get started with Raspberry pi pico. You will learn here how to connect the Raspberry pi pico to your computer as well as how to program led 25 (the one present on the board, see the photo bellow).
+This section describes a series of tutorials to quickly get started with Raspberry pi pico. You will learn here how to connect the Raspberry pi pico to your computer as well as how to program to make work the led 25 (the one present on the board, see the photo bellow).
 
 ![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/led_25_indication.jpg)
 
@@ -24,7 +24,12 @@ Here is how to connect your Raspberry pi pico to your computer to develop on it,
 
 2. second step
 
+![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/getting_started_step_2.jpg)
+
 3. third step
+
+![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/getting_started_step_3_1.jpg)
+![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/getting_started_step_3_2.jpg)
 
 4. fourth step
 
