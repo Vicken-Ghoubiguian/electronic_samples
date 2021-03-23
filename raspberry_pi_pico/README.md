@@ -35,8 +35,8 @@ Here is how to connect your Raspberry pi pico to your computer to develop on it,
 
 on Microsoft's Windows...
 
-![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/connected_windows_1.png)
-![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/connected_windows_2.png)
+![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/connected_windows_1.PNG)
+![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/connected_windows_2.PNG)
 
 on Apple's macOS...
 
