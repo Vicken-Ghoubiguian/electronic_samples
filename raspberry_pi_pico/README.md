@@ -1,6 +1,6 @@
 # Raspberry Pi Pico samples
 
-## Development with Thony... 
+## Development with Thony...
 
 ## Development with Visual Studio Code...
 
@@ -32,6 +32,19 @@ Here is how to connect your Raspberry pi pico to your computer to develop on it,
 ![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/getting_started_step_3_2.jpg)
 
 4. fourth step
+
+on Microsoft's Windows...
+
+![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/connected_windows_1.png)
+![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/connected_windows_2.png)
+
+on Apple's macOS...
+
+
+
+on Linux Ubuntu...
+
+
 
 5. fith step
 
