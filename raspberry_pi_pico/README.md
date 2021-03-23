@@ -16,6 +16,18 @@ This section describes a series of tutorials to quickly get started with Raspber
 
 Here is how to connect your Raspberry pi pico to your computer to develop on it, in 5 steps:
 
+1. first step
+
+2. second step
+
+3. third step
+
+4. fourth step
+
+5. fith step
+
+That's all folks. It is now time to program...
+
 #### Coding with Thonny
 
 
