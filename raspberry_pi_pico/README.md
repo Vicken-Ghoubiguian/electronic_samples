@@ -4,6 +4,24 @@
 
 ## Development with Visual Studio Code...
 
+## Tutorials
+
+Here is a series of tutorials to get started with the Raspberry pi pico microcontroller.
+
+### Getting started
+
+#### Connect the Raspberry pi pico microcontroller to you computer
+
+#### Coding with Thonny
+
+#### Coding with Visual Studio Code
+
+#### Access all of tutorials
+
+All of tutorials 
+
+### With electronic components
+
 ## Documentation
 
 * [Welcome to Raspberry Pi RP2040](https://www.raspberrypi.org/documentation/rp2040/getting-started/),
