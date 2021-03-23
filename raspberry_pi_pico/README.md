@@ -30,13 +30,13 @@ That's all folks. It is now time to program...
 
 #### Coding with Thonny
 
-
-
 #### Coding with Visual Studio Code
 
 #### Access all of tutorials
 
-All of tutorials 
+All of tutorials are available just [here]().
+
+For each sample, exposed, here is the rendering when running: 
 
 ### With electronic components
 
