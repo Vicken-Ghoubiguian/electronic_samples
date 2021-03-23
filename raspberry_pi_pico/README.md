@@ -20,6 +20,8 @@ Here is how to connect your Raspberry pi pico to your computer to develop on it,
 
 1. first step
 
+![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/getting_started_step_1.jpg)
+
 2. second step
 
 3. third step
