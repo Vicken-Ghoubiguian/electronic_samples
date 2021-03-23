@@ -10,7 +10,7 @@ Here is a series of tutorials to get started with the Raspberry pi pico microcon
 
 ### Getting started
 
-This section describes a series of tutorials to quickly get started with Raspberry pi pico. You will learn here how to Connect the Raspberry pi pico to your computer as well as how to program led 25 (the one present on the board).
+This section describes a series of tutorials to quickly get started with Raspberry pi pico. You will learn here how to connect the Raspberry pi pico to your computer as well as how to program led 25 (the one present on the board).
 
 #### Connect the Raspberry pi pico microcontroller to you computer
 
