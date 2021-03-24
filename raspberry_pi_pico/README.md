@@ -18,15 +18,15 @@ This section describes a series of tutorials to quickly get started with Raspber
 
 Here is how to connect your Raspberry pi pico to your computer to develop on it, in 5 steps:
 
-1. first step
+1. Check that you have a Raspberry pi pico microcontroller and a male USB / micoUSB adapter on both sides.
 
 ![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/getting_started_step_1.jpg)
 
-2. second step
+2. Connect the Raspberry pi pico microcontroller with the adapter by the micoUSB side.
 
 ![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/getting_started_step_2.jpg)
 
-3. third step
+3. Press the "BOOTS" button (shown in the photo) then connect your adapter (with the Raspberry pi pico microcontroller already connected) to your computer on the USB side while keeping the button pressed.
 
 ![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/getting_started_step_3_1.jpg)
 ![](https://github.com/Vicken-Ghoubiguian/electronic_samples/blob/main/raspberry_pi_pico/images/getting_started_step_3_2.jpg)
