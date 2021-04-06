@@ -1,12 +1,12 @@
 /* 
   Basic test program, send date at the BAND you seted.
   
-  by Aaron.Lee from HelTec AutoMation, ChengDu, China
+  This project is based on one basic test program by Aaron.Lee from HelTec AutoMation, ChengDu, China also realess in GitHub:
+  https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series
+
+  For more informations:
   成都惠利特自动化科技有限公司
   www.heltec.cn
-  
-  this project also realess in GitHub:
-  https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series
 */
 
 #include <heltec.h>

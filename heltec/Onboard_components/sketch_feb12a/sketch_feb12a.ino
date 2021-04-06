@@ -1,8 +1,8 @@
 #include <heltec.h>
 #include <WiFi.h>
 
-const char* ssid     = "HUAWEI Y5 2019";
-const char* password = "7ba499d738bb";
+const char* ssid     = "Livebox-681C";
+const char* password = "43E13C340F4222E66C12499CE7";
 
 #define BAND    433E6  //you can set band here directly,e.g. 868E6,915E6
 
