@@ -35,8 +35,7 @@ void setup() {
 
 //
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  
   //
   if(WiFi.status() == WL_CONNECTED){
 
@@ -70,5 +69,14 @@ void loop() {
     Heltec.display->drawString(0, 10, "Sorry, but not connected...");
   
     Heltec.display->display();
+
+    //
+    WiFi.begin(ssid, password);
+
+    //
+    delay(10000);
+
+    //
+    Heltec.display->clear();
   }
 }
