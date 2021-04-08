@@ -42,7 +42,7 @@ void loop() {
     //
     Heltec.display->setTextAlignment(TEXT_ALIGN_LEFT);
     Heltec.display->setFont(ArialMT_Plain_10);
-    Heltec.display->drawString(0, 10, "Connection to Wifi successful...");
+    Heltec.display->drawString(0, 0, "Connection to Wifi successful...");
 
     //
     WiFiClient httpClient = server.available();
@@ -50,12 +50,12 @@ void loop() {
     //
     if(httpClient){
       
-      Heltec.display->drawString(10, 0, "New Client...MIRACLE...");
+      Heltec.display->drawString(0, 10, "New Client...MIRACLE...");
       Heltec.display->display();
       
     } else {
   
-      Heltec.display->drawString(10, 0, "No clients...Snif...Snif...");
+      Heltec.display->drawString(0, 10, "No clients...Snif...Snif...");
       Heltec.display->display();
     }
   
@@ -66,7 +66,7 @@ void loop() {
 
     Heltec.display->setTextAlignment(TEXT_ALIGN_LEFT);
     Heltec.display->setFont(ArialMT_Plain_10);
-    Heltec.display->drawString(0, 10, "Sorry, but not connected...");
+    Heltec.display->drawString(0, 0, "Sorry, but not connected...");
   
     Heltec.display->display();
 
