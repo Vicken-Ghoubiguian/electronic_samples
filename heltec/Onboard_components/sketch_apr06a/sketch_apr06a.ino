@@ -9,6 +9,8 @@
 const char* ssid     = "Livebox-681C";
 const char* password = "43E13C340F4222E66C12499CE7";
 
+int connectionCount = 0; 
+
 #define BAND    433E6  //you can set band here directly,e.g. 868E6,915E6
 
 WiFiServer server(80);
@@ -45,17 +47,17 @@ void loop() {
     Heltec.display->drawString(0, 0, "Connection to Wifi successful...");
 
     //
-    WiFiClient httpClient = server.available();
+    WiFiClient client = server.available();
     
     //
-    if(httpClient){
+    if(client){
       
-      Heltec.display->drawString(0, 10, "New Client...MIRACLE...");
+      connectionCount = connectionCount + 1;
       
-    } else {
-  
-      Heltec.display->drawString(0, 10, "No clients...Snif...Snif...");
     }
+
+    //
+    Heltec.display->drawString(0, 10, "Connection count: ");
 
     //
     Heltec.display->drawString(0, 20, "==============================");
