@@ -51,13 +51,21 @@ void loop() {
     if(httpClient){
       
       Heltec.display->drawString(0, 10, "New Client...MIRACLE...");
-      Heltec.display->display();
       
     } else {
   
       Heltec.display->drawString(0, 10, "No clients...Snif...Snif...");
-      Heltec.display->display();
     }
+
+    //
+    Heltec.display->drawString(0, 20, "==============================");
+
+    //
+    Heltec.display->drawString(0, 30, "Local IP: " + WiFi.localIP().toString());
+    Heltec.display->drawString(0, 40, "MAC: " + WiFi.macAddress());
+
+    //
+    Heltec.display->display();
   
     //
     Heltec.display->clear();
