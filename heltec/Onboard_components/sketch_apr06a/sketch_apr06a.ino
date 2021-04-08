@@ -53,11 +53,10 @@ void loop() {
     if(client){
       
       connectionCount = connectionCount + 1;
-      
     }
 
     //
-    Heltec.display->drawString(0, 10, "Connection count: ");
+    Heltec.display->drawString(0, 10, "Connection count: " + String(connectionCount));
 
     //
     Heltec.display->drawString(0, 20, "==============================");
